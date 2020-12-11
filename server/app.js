@@ -63,4 +63,4 @@ app.get('/api/user-data', (req, res) => {
 });
 
 
-app.listen(process.env.PORT || 8000, () => console.log(`App started in port: 8000`));
+app.listen(process.env.PORT || 3000, () => console.log(`App started in port: 8000`));
